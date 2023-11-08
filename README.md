@@ -1,5 +1,5 @@
-# QBIS on EC2 with Ubuntu Desktop
+# QGIS on EC2 with Ubuntu Desktop
 
-A friend needed help running her qbis codes.
+A friend needed a bigger machine to run her qgis codes.
 
-This repo will soon provide all Terraform and bin scripts provisioning a QBIS client in the cloud.
+This repo will soon provide all Terraform and bin scripts for provisioning a QGIS client in the cloud in a matter of minutes with minimal coding (or hopefully none).
