@@ -5,7 +5,11 @@ resource "aws_instance" "ec2" {
   key_name        = aws_key_pair.pem.key_name
   security_groups = [aws_security_group.allow_vnc.name]
 
+  user_data = data.template_file.qgis_vnc.rendered
+
   associate_public_ip_address = true
+
+  
 
   tags = {
     Name = var.ec2_tag
